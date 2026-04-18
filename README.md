@@ -7,6 +7,12 @@ In this repository we collect a sample of core machine learning algorithms and p
 - Linear Regression
 - Logistic Regression
 - Multilayed Perception (Neural Nets)
+- k-Nearest Neighbors
+- Decision/Regression trees
+- Random Forests
+- Ensemble Methods
 
 ## Unsupervised Learning
 - K-means Clustering
+- PCA
+- DBSCAN
