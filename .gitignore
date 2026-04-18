@@ -1,2 +1,9 @@
 .venv
 venv
+.venv
+venv
+myenv
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
