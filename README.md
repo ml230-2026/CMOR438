@@ -4,14 +4,19 @@ Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Profes
 
 ## Table of Contents
 **Supervised Learning**
-- [The Perceptron](Supervised-Learning/A\)%20The-Perceptron/)
-- [Linear Regression](Supervised-Learning/B\)%20Linear%20Regression/)
-- [Logistic Regression](Supervised-Learning/C\)%20Logistic%20Regression/)
-- [Multilayer Perceptron](Supervised-Learning/D\)%20Multilayer%20Perceptron/)
-- [K-Nearest Neighbors](Supervised-Learning/E\)%20K-Nearest-Neighbors/)
-- [Decision/Regression Trees](Supervised-Learning/F\)%20Decision%20Random%20Trees/)
-- [Random Forests](Supervised-Learning/G\)%20Random%20Forests/)
-- [Ensemble Methods](Supervised-Learning/H\)%20Ensemble%20Methods/)
+- [The Perceptron](examples/supervised/A\)%20The-Perceptron/)
+- [Linear Regression](examples/supervised/B\)%20Linear%20Regression/)
+- [Logistic Regression](examples/supervised/C\)%20Logistic%20Regression/)
+- [Multilayer Perceptron](examples/supervised/D\)%20Multilayer%20Perceptron/)
+- [K-Nearest Neighbors](examples/supervised/E\)%20K-Nearest-Neighbors/)
+- [Decision/Regression Trees](examples/supervised/F\)%20Decision%20Random%20Trees/)
+- [Random Forests](examples/supervised/G\)%20Random%20Forests/)
+- [Ensemble Methods](examples/supervised/H\)%20Ensemble%20Methods/)
+
+**Unsupervised Learning**
+- [PCA](examples/unsupervised/A\)%20PCA/)
+- [K-Means Clustering](examples/unsupervised/B\)%20K-Means-Clustering/)
+- [DBSCAN](examples/unsupervised/C\)%20DBSCAN/)
 
 **Unsupervised Learning**
 - [K-Means Clustering](Unsupervised-Learning/B\%20K-Means-Clustering/)
@@ -41,7 +46,6 @@ The training set is fed to the algorithm *with* the answers already included. Th
 The training data is *unlabeled* — we never tell the algorithm which group a data point belongs to. It has to find the patterns on its own.
 - Good for: finding hidden clusters, detecting anomalies, simplifying data
 - Includes *dimensionality reduction* (AKA feature extraction) — simplifying data by merging correlated features into one
-
 
 ### II. By Whether the System Can Learn Incrementally
 
