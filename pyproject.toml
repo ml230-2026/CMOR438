@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "final_ml"
+version = "0.1.0"
+description = "A machine learning package built from scratch for CMOR 438"
+authors = [{ name = "Your Name", email = "your@rice.edu" }]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["numpy", "matplotlib", "seaborn", "pandas"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+package-dir = { "" = "Python Package" }
+
+[tool.setuptools.packages.find]
+where = ["Python Package"]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+doctest_optionflags = ["NORMALIZE_WHITESPACE", "ELLIPSIS"]
+testpaths = ["Python Package/final_ml/supervised_learning", "Tests"]

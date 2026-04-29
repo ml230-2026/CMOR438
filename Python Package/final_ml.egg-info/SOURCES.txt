@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+Python Package/final_ml/__init__.py
+Python Package/final_ml.egg-info/PKG-INFO
+Python Package/final_ml.egg-info/SOURCES.txt
+Python Package/final_ml.egg-info/dependency_links.txt
+Python Package/final_ml.egg-info/requires.txt
+Python Package/final_ml.egg-info/top_level.txt
+Python Package/final_ml/supervised_learning/__init__.py
+Python Package/final_ml/supervised_learning/perceptron.py
+Python Package/final_ml/unsupervised_learning/__init__.py
