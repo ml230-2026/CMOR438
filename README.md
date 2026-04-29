@@ -1,6 +1,5 @@
 # Computational Applied Mathematics and Operations Research 438: Data Science & Machine Learning
 Hello! My name is Michelle Lee and this repository is for CMOR 438 taught by Professor Randy Davila. This course explores the fundamentals of data science and machine learning. This repository collects a sample of core machine learning algorithms and provide descriptions in subdirectories with companion jupyter notebooks. 
-
 ![Cover page art](drawing.png)
 
 ## Table of Contents
@@ -13,11 +12,11 @@ Hello! My name is Michelle Lee and this repository is for CMOR 438 taught by Pro
 - [Decision/Regression Trees](Supervised-Learning/F\)%20Decision%20Random%20Trees/)
 - [Random Forests](Supervised-Learning/G\)%20Random%20Forests/)
 - [Ensemble Methods](Supervised-Learning/H\)%20Ensemble%20Methods/)
-
 **Unsupervised Learning**
 - [K-Means Clustering](Unsupervised-Learning/B\%20K-Means-Clustering/)
 - [PCA](Unsupervised-Learning/A\)%20PCA/)
 - [DBSCAN](Unsupervised-Learning/C\)%20DBSCAN/)
+
 
 ## Data Sets
 🌲 [Forest Cover Type](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
@@ -30,8 +29,7 @@ Hello! My name is Michelle Lee and this repository is for CMOR 438 taught by Pro
 
 🌲 [Global Tree Cover Loss](https://www.kaggle.com/datasets/karnikakapoorglobal-forest-data-2001-2022)
 
+
 ## Resources
 **Programming Tools & Libraries Used**
-
-
 **Books**
