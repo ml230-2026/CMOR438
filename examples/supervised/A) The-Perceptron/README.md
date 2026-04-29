@@ -16,14 +16,24 @@ and asks: which side of the line does this data point fall on?
 ## The Math
 
 **Step 1 — Preactivation:**
-$$z = w^Tx + b$$
+
+z = wᵀx + b
 
 **Step 2 — Activation (step function):**
-$$\hat{y} = \Phi(z) = \begin{cases} 1 & z > 0 \\ -1 & z \leq 0 \end{cases}$$
+
+Φ(z) = 1  if z > 0
+Φ(z) = -1 if z ≤ 0
 
 **Step 3 — Update Rule:**
-$$w \leftarrow w - \alpha(\hat{y}^{(i)} - y^{(i)}) \cdot x^{(i)}$$
-$$b \leftarrow b - \alpha(\hat{y}^{(i)} - y^{(i)})$$
+
+w ← w - α(ŷ - y) · x
+b ← b - α(ŷ - y)
+
+Where:
+- α = learning rate (how big each correction step is)
+- ŷ = predicted label
+- y = true label
+- x = input that caused the mistake
 
 ## Dataset
 
