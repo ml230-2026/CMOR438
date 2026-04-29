@@ -42,7 +42,6 @@ The training data is *unlabeled* — we never tell the algorithm which group a d
 - Good for: finding hidden clusters, detecting anomalies, simplifying data
 - Includes *dimensionality reduction* (AKA feature extraction) — simplifying data by merging correlated features into one
 
----
 
 ### II. By Whether the System Can Learn Incrementally
 
@@ -59,7 +58,6 @@ The training data is *unlabeled* — we never tell the algorithm which group a d
 - The *learning rate* controls how fast the system adapts to changing data
 - Downside: if bad data is fed, the system's performance will decline
 
----
 
 ### III. By How They Generalize to New Cases
 
@@ -71,7 +69,6 @@ The training data is *unlabeled* — we never tell the algorithm which group a d
 - Builds a model from examples, then uses that model to make predictions
 - Example: Linear Regression, Decision Trees
 
----
 
 ## How Do You Know If Your Model Is Good?
 
@@ -85,8 +82,6 @@ The general process for any ML project:
 2. Select a model
 3. Train on training data
 4. Apply the model to make predictions on new cases (*inference*)
-
----
 
 ## What Can Go Wrong?
 
@@ -106,7 +101,6 @@ The general process for any ML project:
 
 To detect these issues, we split our data into a **training set** and a **test set**. The *generalization error* (or out-of-sample error) is the error rate on new cases — it tells us how well our model will perform on instances it has never seen before.
 
----
 
 ## The Machine Learning Process
 
