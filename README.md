@@ -12,6 +12,7 @@ Hello! My name is Michelle Lee and this repository is for CMOR 438 taught by Pro
 - [Decision/Regression Trees](Supervised-Learning/F\)%20Decision%20Random%20Trees/)
 - [Random Forests](Supervised-Learning/G\)%20Random%20Forests/)
 - [Ensemble Methods](Supervised-Learning/H\)%20Ensemble%20Methods/)
+
 **Unsupervised Learning**
 - [K-Means Clustering](Unsupervised-Learning/B\%20K-Means-Clustering/)
 - [PCA](Unsupervised-Learning/A\)%20PCA/)
@@ -32,4 +33,5 @@ Hello! My name is Michelle Lee and this repository is for CMOR 438 taught by Pro
 
 ## Resources
 **Programming Tools & Libraries Used**
+
 **Books**
