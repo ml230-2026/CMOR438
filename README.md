@@ -28,7 +28,6 @@ Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Profes
 **Machine Learning** is the science and art of programming computers so they can learn from data rather than being explicitly told every rule.
 
 Key vocabulary words:
-
 - **Training set** — the examples the system uses to learn from
 - **Training instance** (or sample) — a single example in the training set
 - **Model** — the part of the ML system that learns from the training set and makes predictions
