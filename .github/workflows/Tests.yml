@@ -23,7 +23,7 @@ jobs:
 
       - name: Install package and dependencies
         run: |
-          pip install -e "Python Package/"
+          pip install -e .
           pip install pytest numpy
 
       - name: Run unit tests
