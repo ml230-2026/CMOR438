@@ -1,4 +1,4 @@
-# Supervised Learning
+## Supervised Learning
 
 Supervised learning is a class of machine learning algorithms that learn from labeled data (datasets where each example has a known input and a known output). The algorithm learns a mapping from inputs to outputs and uses that mapping to make predictions on new data.
 
