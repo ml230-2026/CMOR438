@@ -1,23 +1,23 @@
 # Supervised Learning
 
-Supervised learning is a class of machine learning algorithms that learn from **labeled data** — datasets where each example has a known input and a known output. The algorithm learns a mapping from inputs to outputs and uses that mapping to make predictions on new, unseen data.
+Supervised learning is a class of machine learning algorithms that learn from labeled data (datasets where each example has a known input and a known output). The algorithm learns a mapping from inputs to outputs and uses that mapping to make predictions on new data.
 
-## What is Supervised Learning?
+### What is Supervised Learning?
 
 In supervised learning, we train a model on a dataset of $(X, y)$ pairs where:
-- $X$ is the **feature matrix** — the input data
-- $y$ is the **target vector** — the correct answers
+- $X$ is the feature matrix — the input data
+- $y$ is the target vector — the correct answers
 
 The model learns to predict $y$ from $X$. Once trained, it can generalize to new inputs it has never seen before.
 
-## Two Types of Supervised Learning
+### Two Types of Supervised Learning
 
 | Type | Goal | Output | Example |
 |---|---|---|---|
-| **Classification** | Predict a category | Discrete label | Is this dog a sporting breed? (yes/no) |
-| **Regression** | Predict a number | Continuous value | How many bee colonies were lost this year? |
+| Classification | Predict a category | Discrete label | Is this dog a sporting breed? (yes/no) |
+|*Regression | Predict a number | Continuous value | How many bee colonies were lost this year? |
 
-## Algorithms Covered
+### Algorithms Covered
 
 | # | Algorithm | Type | Dataset | Key Idea |
 |---|---|---|---|---|
@@ -31,7 +31,7 @@ The model learns to predict $y$ from $X$. Once trained, it can generalize to new
 | H | [Random Forests](H%29%20Random%20Forests/) | Classification | Forest Cover Type 🌲 | Ensemble of decision trees via bagging |
 | I | [Ensemble Methods](I%29%20Ensemble%20Methods/) | Classification | Water Potability 💧 | Combine weak learners into a strong model |
 
-## Datasets Used
+### Datasets Used
 
 **🐶 Dog Breeds Dataset**
 A collection of 277 AKC-recognized dog breeds with features including size, energy level, trainability, lifespan, and group classification. Used for binary and multi-class classification tasks.
@@ -45,14 +45,14 @@ Chemical measurements (pH, hardness, chloramines, etc.) for 3,276 water samples,
 **🌲 Forest Cover Type Dataset (UCI)**
 Cartographic features (elevation, slope, soil type, distance to landmarks) for forest plots in Roosevelt National Forest, Colorado. Used to classify one of 7 tree cover types.
 
-## How to Run the Notebooks
+### How to Run the Notebooks
 
 1. Clone the repository
 2. Install dependencies: `pip install numpy pandas matplotlib scikit-learn`
 3. Open any notebook with Jupyter: `jupyter notebook`
 4. Run all cells from top to bottom
 
-## Key Concepts Across All Notebooks
+### Key Concepts Across All Notebooks
 
 - **Train/Test Split** — splitting data so we evaluate on unseen examples
 - **Evaluation Metrics** — accuracy, precision, recall, F1, MSE, R²
