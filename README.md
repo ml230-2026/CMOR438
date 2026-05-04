@@ -5,20 +5,20 @@ Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Profes
 ## Table of Contents
 
 **Supervised Learning**
-- [The Perceptron](examples/supervised/A)%20The-Perceptron/)
-- [Linear Regression](examples/supervised/B)%20Linear%20Regression/)
-- [Logistic Regression](examples/supervised/C)%20Logistic%20Regression/)
-- [Multilayer Perceptron](examples/supervised/D)%20Multilayer%20Perceptron/)
-- [K-Nearest Neighbors](examples/supervised/E)%20K-Nearest-Neighbors/)
-- [Regression Trees](examples/supervised/F)%20Regression%20Trees/)
-- [Decision Trees](examples/supervised/G)%20Decision%20Trees/)
-- [Random Forests](examples/supervised/H)%20Random%20Forests/)
-- [Ensemble Methods](examples/supervised/I)%20Ensemble%20Methods/)
+- [The Perceptron](examples/supervised/A%29%20The-Perceptron/)
+- [Linear Regression](examples/supervised/B%29%20Linear%20Regression/)
+- [Logistic Regression](examples/supervised/C%29%20Logistic%20Regression/)
+- [Multilayer Perceptron](examples/supervised/D%29%20Multilayer%20Perceptron/)
+- [K-Nearest Neighbors](examples/supervised/E%29%20K-Nearest-Neighbors/)
+- [Regression Trees](examples/supervised/F%29%20Regression%20Trees/)
+- [Decision Trees](examples/supervised/G%29%20Decision%20Trees/)
+- [Random Forests](examples/supervised/H%29%20Random%20Forests/)
+- [Ensemble Methods](examples/supervised/I%29%20Ensemble%20Methods/)
 
 **Unsupervised Learning**
-- [PCA](examples/unsupervised/A)%20PCA/)
-- [K-Means Clustering](examples/unsupervised/B)%20K-Means-Clustering/)
-- [DBSCAN](examples/unsupervised/C)%20DBSCAN/)
+- [PCA](examples/unsupervised/A%29%20PCA/)
+- [K-Means Clustering](examples/unsupervised/B%29%20K-Means-Clustering/)
+- [DBSCAN](examples/unsupervised/C%29%20DBSCAN/)
 
 ## What is Machine Learning?
 
