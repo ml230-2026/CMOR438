@@ -150,5 +150,6 @@ Created by Kanika Kapoor using data from Global Forest Watch, the World Resource
 - pip
 - pyproject.oml
 - virtual environemt (myenv)
+
 **Books**
 - Hands-On Machine Learning ith Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron
