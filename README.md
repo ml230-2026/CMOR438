@@ -1,10 +1,10 @@
 # CMOR 438: Data Science & Machine Learning
-Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Professor Randy Davila. This course explores the fundamentals of data science and machine learning. This beginner-friendly repository collects a sample of core machine learning algorithms and provide descriptions in subdirectories with companion jupyter notebooks. 
+Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Professor Randy Davila. This course explores the fundamentals of data science and machine learning. The goal of this repository is to collect a sample of core machine learning algorithms and provide descriptions in subdirectories with companion jupyter notebooks in a beginner-friendly way. The underlying goal is to explore some environmental concepts and learn new things through these models.  
 ![Cover page art](drawing.png)
 
-## Table of Contents
+### Table of Contents: Examples 
 
-**Supervised Learning**
+Supervised Learning
 - [The Perceptron](examples/supervised/A%29%20The-Perceptron/)
 - [Linear Regression](examples/supervised/B%29%20Linear%20Regression/)
 - [Logistic Regression](examples/supervised/C%29%20Logistic%20Regression/)
@@ -15,67 +15,67 @@ Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Profes
 - [Random Forests](examples/supervised/H%29%20Random%20Forests/)
 - [Ensemble Methods](examples/supervised/I%29%20Ensemble%20Methods/)
 
-**Unsupervised Learning**
+Unsupervised Learning
 - [PCA](examples/unsupervised/A%29%20PCA/)
 - [K-Means Clustering](examples/unsupervised/B%29%20K-Means-Clustering/)
 - [DBSCAN](examples/unsupervised/C%29%20DBSCAN/)
 
-## What is Machine Learning?
+### What is Machine Learning?
 
-**Machine Learning** is the science and art of programming computers so they can learn from data rather than being explicitly told every rule.
+Machine Learning is the science and art of programming computers so they can learn from data rather than being explicitly told every rule.
 
 Key vocabulary words:
-- **Training set** — the examples the system uses to learn from
-- **Training instance** (or sample) — a single example in the training set
-- **Model** — the part of the ML system that learns from the training set and makes predictions
+- Training set — the examples the system uses to learn from
+- Training instance (or sample) — a single example in the training set
+- Model — the part of the ML system that learns from the training set and makes predictions
 
-## Types of Machine Learning
+### Types of Machine Learning
 
-### I. By How Much Supervision They Get During Training
+**I. By How Much Supervision They Get During Training**
 
-**Supervised Learning**  
-The training set is fed to the algorithm *with* the answers already included. The model learns by comparing its predictions to the correct answers.
-- **Classification** — predicting a category (e.g. is this dog high energy or not?)
-- **Regression** — predicting a numeric value given a set of features (e.g. how long will this dog breed live?)
+*Supervised Learning*
+The training set is fed to the algorithm with the answers already included. The model learns by comparing its predictions to the correct answers.
+- Classification — predicting a category
+- Regression — predicting a numeric value given a set of features
 
-**Unsupervised Learning**  
-The training data is *unlabeled* — we never tell the algorithm which group a data point belongs to. It has to find the patterns on its own.
+*Unsupervised Learning* 
+The training data is unlabeled — never tells the algorithm which group a data point belongs to. It has to find the patterns on its own.
 - Good for: finding hidden clusters, detecting anomalies, simplifying data
-- Includes *dimensionality reduction* (AKA feature extraction) — simplifying data by merging correlated features into one
+- Includes dimensionality reduction (AKA feature extraction) — simplifying data by merging correlated features into one
 
-### II. By Whether the System Can Learn Incrementally
+**II. By Whether the System Can Learn Incrementally**
 
-**Batch Learning**
+*Batch Learning*
 - Trained all at once on available data, then deployed
 - Cannot learn incrementally from new data
 - If you want the model to know about new data, you have to retrain from scratch on the full dataset (old + new)
-- Also called *offline learning*
+- Also called offline learning
 - Downside: limited resources, takes up a lot of space
 
-**Online Learning**
-- Trains the system incrementally by feeding it data instances sequentially — either individually or in small groups called *mini-batches*
-- Great for huge datasets that can't fit in one machine's memory (AKA *out-of-core learning*)
-- The *learning rate* controls how fast the system adapts to changing data
+*Online Learning*
+- Trains the system incrementally by feeding it data instances sequentially — either individually or in small groups called mini-batches
+- Great for huge datasets that can't fit in one machine's memory (AKA out-of-core learning)
+- The learning rate controls how fast the system adapts to changing data
 - Downside: if bad data is fed, the system's performance will decline
 
 
-### III. By How They Generalize to New Cases
+**III. By How They Generalize to New Cases**
 
-**Instance-Based Learning**
-- Learns examples by heart, then generalizes to new cases using a *similarity measure*
+*Instance-Based Learning*
+- Learns examples by heart, then generalizes to new cases using a similarity measure
 - Example: K-Nearest Neighbors
 
-**Model-Based Learning**
+*Model-Based Learning*
 - Builds a model from examples, then uses that model to make predictions
 - Example: Linear Regression, Decision Trees
 
 
-## How Do You Know If Your Model Is Good?
+### How Do You Know If Your Model Is Good?
 
-Before you can use your model, you need to define its parameter values. To figure out which values make it perform best, you specify a **performance measure:**
+Before you can use your model, you need to define its parameter values. To figure out which values make it perform best, you specify a performance measure:
 
-- **Utility function** — measures how *good* the model is
-- **Cost function** — measures how *bad* it is (we try to minimize this)
+- Utility function — measures how good the model is
+- Cost function — measures how bad it is (we try to minimize this)
 
 The general process for any ML project:
 1. Study the data
@@ -83,26 +83,26 @@ The general process for any ML project:
 3. Train on training data
 4. Apply the model to make predictions on new cases (*inference*)
 
-## What Can Go Wrong?
+### What Can Go Wrong?
 
-### Bad Data
-- **Non-representative data** — training data must be representative of new cases
-- **Sampling noise** — sample too small
-- **Sampling bias** — sample too large but skewed
-- **Poor quality** — full of errors, outliers, and noise
-- **Irrelevant features** — need a good set of features to train on (*feature engineering*)
-  - *Feature selection* — selecting the most useful features
-  - *Feature extraction* — combining existing features to produce a more useful one
+**Bad Data**
+- Non-representative data — training data must be representative of new cases
+- Sampling noise — sample too small
+- Sampling bias — sample too large but skewed
+- Poor quality — full of errors, outliers, and noise
+- Irrelevant features — need a good set of features to train on (feature engineering)
+  - Feature selection — selecting the most useful features
+  - Feature extraction — combining existing features to produce a more useful one
   - Creating new features from new data
 
-### Bad Model
-- **Overfitting** — performs well on training data but not on new data
-- **Underfitting** — too simple to learn the underlying structure of the data
+**Bad Model**
+- Overfitting — performs well on training data but not on new data
+- Underfitting — too simple to learn the underlying structure of the data
 
-To detect these issues, we split our data into a **training set** and a **test set**. The *generalization error* (or out-of-sample error) is the error rate on new cases — it tells us how well our model will perform on instances it has never seen before.
+To detect these issues, people split their data into a training set and a test set. The generalization error (or out-of-sample error) is the error rate on new cases — it tells us how well the model will perform on instances it has never seen before.
 
 
-## The Machine Learning Process
+### The Machine Learning Process
 
 Every notebook in this repo follows these steps:
 
@@ -115,7 +115,7 @@ Every notebook in this repo follows these steps:
 7. Present the solution
 8. Launch, monitor, and maintain the system
 
-## This Repository
+### This Repository Structure
 ```
 CMOR438/
 ├── .github/
@@ -173,7 +173,7 @@ CMOR438/
 └── pyproject.toml
 ```
 
-## Data Sets
+### Data Sets
 🌲 [Forest Cover Type](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
 Compiled in 1998 by Jock Blackard, Denis Dean, and Charles Anderson from the Remote Sensing and GIS Program at Colorado State University, using data collected by the US Geological Survey and US Forest Service. The dataset captures naturally and minimally disturbed forest ecosystems across wilderness areas in Roosevelt National Forest in northern Colorado. Features are entirely cartographic — tree type, shadow coverage, distance to nearby landmarks, soil type, and local topography — with no satellite or remote sensing data. Originally compiled to research neural networks for forest cover classification. Source: UCI Machine Learning Repository
 
@@ -190,8 +190,8 @@ Created by Aditya Kadiwal, this dataset contains water quality measurements for 
 🌲 [Global Tree Cover Loss](https://www.kaggle.com/datasets/karnikakapoorglobal-forest-data-2001-2022)
 Created by Kanika Kapoor using data from Global Forest Watch, the World Resources Institute, Maryland's GLAD Laboratory, and Google, based on research by Hansen et al. and Harris et al. Satellite imagery was used to track forest change across the planet from 2001–2022. Designed to support strategies in forest conservation and carbon management. Importantly, "loss" does not mean deforestation specifically — it refers to any removal or mortality of tree cover, whether from logging, fire, or natural causes. Source: Global Forest Watch / World Resources Institute via Kaggle
 
-## Resources
-**Programming Tools & Libraries Used**
+### Resources
+Programming Tools & Libraries Used
 - Python 3.13
 - numpy
 - pandas
@@ -206,5 +206,5 @@ Created by Kanika Kapoor using data from Global Forest Watch, the World Resource
 - pyproject.oml
 - virtual environemt (myenv)
 
-**Books**
+Books
 - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron
