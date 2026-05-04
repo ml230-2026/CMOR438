@@ -33,16 +33,16 @@ The model learns to predict $y$ from $X$. Once trained, it can generalize to new
 
 ### Datasets Used
 
-**🐶 Dog Breeds Dataset**
+🐶 Dog Breeds Dataset
 A collection of 277 AKC-recognized dog breeds with features including size, energy level, trainability, lifespan, and group classification. Used for binary and multi-class classification tasks.
 
-**🐝 Bee Colony Loss Dataset (USDA)**
+🐝 Bee Colony Loss Dataset (USDA)
 Annual U.S. honey bee colony data collected by the USDA from 2015–2022, including colony counts, losses, and stressors. Used to explore regression on ecological time-series data.
 
-**💧 Water Potability Dataset**
+💧 Water Potability Dataset
 Chemical measurements (pH, hardness, chloramines, etc.) for 3,276 water samples, each labeled as potable or not. Used for binary classification.
 
-**🌲 Forest Cover Type Dataset (UCI)**
+🌲 Forest Cover Type Dataset (UCI)
 Cartographic features (elevation, slope, soil type, distance to landmarks) for forest plots in Roosevelt National Forest, Colorado. Used to classify one of 7 tree cover types.
 
 ### How to Run the Notebooks
@@ -54,7 +54,7 @@ Cartographic features (elevation, slope, soil type, distance to landmarks) for f
 
 ### Key Concepts Across All Notebooks
 
-- **Train/Test Split** — splitting data so we evaluate on unseen examples
-- **Evaluation Metrics** — accuracy, precision, recall, F1, MSE, R²
-- **Overfitting vs Underfitting** — the bias-variance tradeoff
-- **Feature Scaling** — standardizing inputs so distance-based methods work correctly
+- Train/Test Split — splitting data so we evaluate on unseen examples
+- Evaluation Metrics — accuracy, precision, recall, F1, MSE, R²
+- Overfitting vs Underfitting — the bias-variance tradeoff
+- Feature Scaling — standardizing inputs so distance-based methods work correctly
