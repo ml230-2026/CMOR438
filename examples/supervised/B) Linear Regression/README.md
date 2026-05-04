@@ -1,4 +1,4 @@
-### B)Linear Regression
+### B) Linear Regression
 
 **Overview**
 
