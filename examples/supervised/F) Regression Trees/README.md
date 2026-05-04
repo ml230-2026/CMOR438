@@ -62,7 +62,7 @@ $$\hat{y} = \frac{1}{|R_k|} \sum_{i \in R_k} y_i$$
 |---|---|---|
 | MSE | $\frac{1}{n}\sum(y - \hat{y})^2$ | Average squared error |
 | RMSE | $\sqrt{\text{MSE}}$ | Error in original units (meters) |
-| R² | $1 - \frac{\text{SS}_{res}}{\text{SS}_{tot}}$ | Proportion of variance explained |
+| R² | 1 - (SS_res / SS_tot) | Proportion of variance explained |
 
 ## Advantages
 
