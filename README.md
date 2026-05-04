@@ -120,17 +120,35 @@ Every notebook in this repo follows these steps:
 
 ## Data Sets
 🌲 [Forest Cover Type](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
+Compiled in 1998 by Jock Blackard, Denis Dean, and Charles Anderson from the Remote Sensing and GIS Program at Colorado State University, using data collected by the US Geological Survey and US Forest Service. The dataset captures naturally and minimally disturbed forest ecosystems across wilderness areas in Roosevelt National Forest in northern Colorado. Features are entirely cartographic — tree type, shadow coverage, distance to nearby landmarks, soil type, and local topography — with no satellite or remote sensing data. Originally compiled to research neural networks for forest cover classification. Source: UCI Machine Learning Repository
 
 🐝 [Bee Colony Loss](https://www.kaggle.com/datasetsthedevastatorbee-colony-census-and-loss-data)
+Compiled by Brenda Griffith of the Bee Informed Partnership (BIP) from 2010–2024, combining data from two government and nonprofit sources: USDA Agricultural Statistics Service colony census surveys (at county and state levels) and BIP annual colony loss reports. The dataset brings together a comprehensive picture of honeybee health across the U.S., created to analyze colony health trends and inform decisions about saving the honeybee population. Source: USDA Agricultural Statistics Service & Bee Informed Partnership via Kaggle
 
 🐾 [Dog Breeds & Lifespan](https://www.kaggle.com/datasets/mexwell/dog-breeds-dataset)
+Created in 2024 by Telmo Silva Filho as a personal passion project, this dataset covers all 277 officially recognized American Kennel Club dog breeds. Features include size, energy level, trainability, shedding, lifespan, and breed group. All data rights belong to the AKC. Source: American Kennel Club via Kaggle
 
 🌊 [Water Potability](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
+Created by Aditya Kadiwal, this dataset contains water quality measurements for 3,276 water bodies around the world, testing chemical and physical properties — pH, hardness, solids, chloramines, sulfate, conductivity, organic carbon, trihalomethanes, and turbidity — against WHO and US EPA safety standards. Motivated by global health concern, the dataset reflects the principle that "safe drinking water is essential to health, a basic human right and component of effective policy for health protection." Source: Kaggle
+
 
 🌲 [Global Tree Cover Loss](https://www.kaggle.com/datasets/karnikakapoorglobal-forest-data-2001-2022)
-
+Created by Kanika Kapoor using data from Global Forest Watch, the World Resources Institute, Maryland's GLAD Laboratory, and Google, based on research by Hansen et al. and Harris et al. Satellite imagery was used to track forest change across the planet from 2001–2022. Designed to support strategies in forest conservation and carbon management. Importantly, "loss" does not mean deforestation specifically — it refers to any removal or mortality of tree cover, whether from logging, fire, or natural causes. Source: Global Forest Watch / World Resources Institute via Kaggle
 
 ## Resources
 **Programming Tools & Libraries Used**
-
+- Python 3.13
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
+- pytest
+- git
+- GitHub Actions 
+- pip
+- pyproject.oml
+- virtual environemt (myenv)
 **Books**
+- Hands-On Machine Learning ith Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron
