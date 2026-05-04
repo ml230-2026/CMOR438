@@ -115,6 +115,64 @@ Every notebook in this repo follows these steps:
 7. Present the solution
 8. Launch, monitor, and maintain the system
 
+## This Repository
+```
+CMOR438/
+├── .github/
+│   └── workflows/
+│       └── Tests.yml
+├── Examples/
+│   ├── supervised/
+│   │   ├── A) The-Perceptron/
+│   │   ├── B) Linear Regression/
+│   │   ├── C) Logistic Regression/
+│   │   ├── D) Multilayer Perceptron/
+│   │   ├── E) K-Nearest-Neighbors/
+│   │   ├── F) Regression Trees/
+│   │   ├── G) Decision Trees/
+│   │   ├── H) Random Forests/
+│   │   └── I) Ensemble Methods/
+│   └── unsupervised/
+│       ├── A) PCA/
+│       ├── B) K-Means-Clustering/
+│       └── C) DBSCAN/
+├── Python Package/
+│   └── final_ml/
+│       ├── __init__.py
+│       ├── supervised_learning/
+│       │   ├── decision_tree.py
+│       │   ├── ensemble.py
+│       │   ├── knn.py
+│       │   ├── linear_regression.py
+│       │   ├── logistic_regression.py
+│       │   ├── mlp.py
+│       │   ├── perceptron.py
+│       │   ├── random_forest.py
+│       │   └── regression_tree.py
+│       └── unsupervised_learning/
+│           ├── dbscan.py
+│           ├── kmeans.py
+│           └── pca.py
+├── Tests/
+│   └── unit/
+│       ├── test_dbscan.py
+│       ├── test_decision_tree_classifier.py
+│       ├── test_decision_tree_regressor.py
+│       ├── test_ensemble.py
+│       ├── test_kmeans.py
+│       ├── test_knn.py
+│       ├── test_linear_regression.py
+│       ├── test_logistic_regression.py
+│       ├── test_mlp.py
+│       ├── test_pca.py
+│       ├── test_perceptron.py
+│       └── test_random_forest.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── pyproject.toml
+```
+
 ## Data Sets
 🌲 [Forest Cover Type](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
 Compiled in 1998 by Jock Blackard, Denis Dean, and Charles Anderson from the Remote Sensing and GIS Program at Colorado State University, using data collected by the US Geological Survey and US Forest Service. The dataset captures naturally and minimally disturbed forest ecosystems across wilderness areas in Roosevelt National Forest in northern Colorado. Features are entirely cartographic — tree type, shadow coverage, distance to nearby landmarks, soil type, and local topography — with no satellite or remote sensing data. Originally compiled to research neural networks for forest cover classification. Source: UCI Machine Learning Repository
