@@ -21,14 +21,15 @@ The model learns to predict $y$ from $X$. Once trained, it can generalize to new
 
 | # | Algorithm | Type | Dataset | Key Idea |
 |---|---|---|---|---|
-| A | [Perceptron](A\)%20The-Perceptron/) | Classification | Dog Breeds 🐶 | Binary linear classifier inspired by a neuron |
-| B | [Linear Regression](B\)%20Linear%20Regression/) | Regression | Bee Colony Loss 🐝 | Fit a line to predict continuous values |
-| C | [Logistic Regression](C\)%20Logistic%20Regression/) | Classification | Dog Breeds 🐶 | Probabilistic classifier using the sigmoid function |
-| D | [Multilayer Perceptron](D\)%20Multilayer%20Perceptron/) | Classification | Water Potability 💧 | Neural network with hidden layers |
-| E | [K-Nearest Neighbors](E\)%20K-Nearest-Neighbors/) | Classification | Forest Cover Type 🌲 | Classify by majority vote of nearest neighbors |
-| F | [Decision & Regression Trees](F\)%20Decision%20Random%20Trees/) | Both | Forest Cover Type 🌲 | Recursive binary splitting on features |
-| G | [Random Forests](G\)%20Random%20Forests/) | Classification | Forest Cover Type 🌲 | Ensemble of decision trees via bagging |
-| H | [Ensemble Methods](H\)%20Ensemble%20Methods/) | Classification | Water Potability 💧 | Combine weak learners into a strong model |
+| A | [Perceptron](A%29%20The-Perceptron/) | Classification | Dog Breeds 🐶 | Binary linear classifier inspired by a neuron |
+| B | [Linear Regression](B%29%20Linear%20Regression/) | Regression | Bee Colony Loss 🐝 | Fit a line to predict continuous values |
+| C | [Logistic Regression](C%29%20Logistic%20Regression/) | Classification | Dog Breeds 🐶 | Probabilistic classifier using the sigmoid function |
+| D | [Multilayer Perceptron](D%29%20Multilayer%20Perceptron/) | Classification | Water Potability 💧 | Neural network with hidden layers |
+| E | [K-Nearest Neighbors](E%29%20K-Nearest-Neighbors/) | Classification | Forest Cover Type 🌲 | Classify by majority vote of nearest neighbors |
+| F | [Regression Trees](F%29%20Regression%20Trees/) | Regression | Forest Cover Type 🌲 | Predict continuous values via recursive splitting |
+| G | [Decision Trees](G%29%20Decision%20Trees/) | Classification | Forest Cover Type 🌲 | Classify via recursive binary splitting on features |
+| H | [Random Forests](H%29%20Random%20Forests/) | Classification | Forest Cover Type 🌲 | Ensemble of decision trees via bagging |
+| I | [Ensemble Methods](I%29%20Ensemble%20Methods/) | Classification | Water Potability 💧 | Combine weak learners into a strong model |
 
 ## Datasets Used
 
