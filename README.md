@@ -1,4 +1,4 @@
-# CMOR 438: Data Science & Machine Learning
+## CMOR 438: Data Science & Machine Learning
 Hi, my name is Michelle Lee and this repository is for CMOR 438 taught by Professor Randy Davila. This course explores the fundamentals of data science and machine learning. The goal of this repository is to collect a sample of core machine learning algorithms and provide descriptions in subdirectories with companion jupyter notebooks in a beginner-friendly way. The underlying goal is to explore some environmental concepts and learn new things through these models.  
 ![Cover page art](drawing.png)
 
