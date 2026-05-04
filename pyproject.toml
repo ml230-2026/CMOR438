@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "final_ml"
 version = "0.1.0"
 description = "A machine learning package built from scratch for CMOR 438"
-authors = [{ name = "Your Name", email = "your@rice.edu" }]
+authors = [{ name = "ml230-2026", email = "ml230@rice.edu" }]
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
@@ -22,6 +22,5 @@ package-dir = { "" = "Python Package" }
 where = ["Python Package"]
 
 [tool.pytest.ini_options]
-addopts = "--doctest-modules"
-doctest_optionflags = ["NORMALIZE_WHITESPACE", "ELLIPSIS"]
-testpaths = ["Python Package/final_ml/supervised_learning", "Tests"]
+addopts = "-v"
+testpaths = ["Tests"]
