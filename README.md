@@ -19,6 +19,7 @@ Unsupervised Learning
 - [PCA](examples/unsupervised/A%29%20PCA/)
 - [K-Means Clustering](examples/unsupervised/B%29%20K-Means-Clustering/)
 - [DBSCAN](examples/unsupervised/C%29%20DBSCAN/)
+- [PCA Model Comparison](examples/unsupervised/D%29%20PCA-Model-Comparison/)
 
 ### What is Machine Learning?
 
