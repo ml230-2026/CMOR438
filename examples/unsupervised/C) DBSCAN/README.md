@@ -41,18 +41,18 @@ Two parameters define the algorithm:
 
 **Notebook Structure**
 
-1. **Introduction** — Density-based clustering vs centroid-based
-2. **Data Exploration** — Country-level deforestation patterns
-3. **Preprocessing** — Standardize, filter zero-loss countries
-4. **k-Distance Graph** — Choose ε from the elbow
-5. **Fit DBSCAN** — Cluster countries, identify noise
-6. **Explore Clusters** — Which countries are in each group?
-7. **Outlier Analysis** — Which countries are noise and why?
-8. **PCA Visualization** — Plot clusters in 2D
-9. **Cluster Profiles** — Average loss over time per cluster
-10. **Sensitivity Analysis** — How eps and min_samples affect results
-11. **Comparison with K-Means** — Key differences on same dataset
-12. **Conclusion** — What does density reveal about deforestation?
+1. Introduction** — Density-based clustering vs centroid-based
+2. Data Exploration** — Country-level deforestation patterns
+3. Preprocessing** — Standardize, filter zero-loss countries
+4. k-Distance Graph— Choose ε from the elbow
+5. Fit DBSCAN — Cluster countries, identify noise
+6. Explore Clusters — Which countries are in each group?
+7. Outlier Analysis — Which countries are noise and why?
+8. PCA Visualization — Plot clusters in 2D
+9. Cluster Profiles — Average loss over time per cluster
+10. Sensitivity Analysis — How eps and min_samples affect results
+11. Comparison with K-Means — Key differences on same dataset
+12. Conclusion — What does density reveal about deforestation?
 
 **DBSCAN vs K-Means**
 
