@@ -187,12 +187,6 @@ pytest Tests/unit/ -v
 ## Running the Notebooks
 Download the datasets from Kaggle and place them in the `data/` folder inside each algorithm directory. Or open the notebook in VS Code and click **Run All**.
 
-Datasets used:
-- [AKC Dog Breeds](https://www.kaggle.com/) 🐶
-- [Bee Colony Census & Loss](https://www.kaggle.com/) 🐝
-- [Water Quality](https://www.kaggle.com/) 💧
-- [Forest Cover Type](https://www.kaggle.com/) 🌲
-- [Global Tree Cover Loss](https://www.kaggle.com/) 🌳
 ### Data Sets
 🌲 [Forest Cover Type](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
 Compiled in 1998 by Jock Blackard, Denis Dean, and Charles Anderson from the Remote Sensing and GIS Program at Colorado State University, using data collected by the US Geological Survey and US Forest Service. The dataset captures naturally and minimally disturbed forest ecosystems across wilderness areas in Roosevelt National Forest in northern Colorado. Features are entirely cartographic — tree type, shadow coverage, distance to nearby landmarks, soil type, and local topography — with no satellite or remote sensing data. Originally compiled to research neural networks for forest cover classification. Source: UCI Machine Learning Repository
